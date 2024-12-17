@@ -4,20 +4,14 @@ variable "region" {
   default     = "us-east-1"
 }
 
-variable "profile" {
-  description = "The AWS profile"
-  type        = string
-  default     = "default"
-}
-
 variable "database_user" {
   description = "The username of the database user"
   type        = string
-  default = "postgres"
+  default     = "postgres"
 }
 
 variable "database_password" {
   description = "The password of the database user"
   type        = string
-  default = "postgres"
+  default     = "postgres"
 }

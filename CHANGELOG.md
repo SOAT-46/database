@@ -20,3 +20,7 @@ Exceptions are acceptable depending on the circumstances (critical bug fixes tha
 - added GitHub Actions for CI/CD
 - added the `AWS RDS` and `Security Groups` modules
 - created the base structure
+
+### Fixed
+
+- fixed CI/CD execution
