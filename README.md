@@ -12,6 +12,7 @@ This repository provides a framework for managing infrastructure using Terraform
 
 ## Project Structure
 
+```
 terraform/
 ├── modules/
 │   └── rds/
@@ -23,6 +24,7 @@ terraform/
            ├── modules.tf
            ├── provider.tf
            └── variables.tf
+```
 
 ## Prerequisites
 
