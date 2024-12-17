@@ -17,4 +17,5 @@ Exceptions are acceptable depending on the circumstances (critical bug fixes tha
 
 ### Added
 
+- added the `AWS RDS` and `Security Groups` modules
 - created the base structure
