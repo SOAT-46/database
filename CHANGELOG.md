@@ -24,3 +24,4 @@ Exceptions are acceptable depending on the circumstances (critical bug fixes tha
 ### Fixed
 
 - fixed CI/CD execution
+- fixed database external access

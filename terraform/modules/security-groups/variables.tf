@@ -7,5 +7,11 @@ variable "sg_name" {
 variable "sg_prefix" {
   description = "The prefix of the security group"
   type        = string
-  default = "rds-sg-"
+  default = "rds-sg"
+}
+
+variable "cidr" {
+  description = "The cidr for security group"
+  type = string
+  default = "0.0.0.0/0"
 }

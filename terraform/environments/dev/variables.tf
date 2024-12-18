@@ -13,5 +13,9 @@ variable "database_user" {
 variable "database_password" {
   description = "The password of the database user"
   type        = string
-  default     = "postgres"
+  default     = "fastfood9080"
+}
+
+variable "vpc_cidr" {
+  default = "172.31.0.0/16"
 }
